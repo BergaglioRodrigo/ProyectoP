@@ -4,6 +4,13 @@ from AppJuegos.models import Juegos
 from django.template import loader
 # Create your views here.
 
+
+
+
+  
+
+
+
 def juegos (request):
     juegos = Juegos.objects.all()
     dicc = {"juegos":juegos}
