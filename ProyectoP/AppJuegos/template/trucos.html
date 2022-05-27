@@ -1,0 +1,37 @@
+{% extends "padre.html" %}
+
+{%load static%}
+
+{% block contenido %}
+
+ <main>
+     
+         
+    
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Juego</th>
+            <th scope="col">Codigo</th>
+            <th scope="col">Accion</th>
+           
+            
+          </tr>
+        </thead>
+        <tbody>
+
+          {% for n in listatrucos %}
+          <tr>
+            <th scope="row">{{n.juego}}</th>
+            <td>{{n.codigo}}</td>
+            <td>{{n.accion}}</td>
+            
+          </tr>
+          {%endfor%}
+            
+        </tbody>
+      </table>
+ </main>
+ 
+ {%endblock%}
