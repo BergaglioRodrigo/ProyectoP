@@ -4,7 +4,7 @@
 
 3 - Formularios para insertar datos en cada una de las clases.
 
-.Para insertar datos en la DB de "Juegos",ingresar a "http://127.0.0.1:8000/appjuegos/agregarlistajuegos"(no esta linkeada a la pag) se va a ver reflejado en http://127.0.0.1:8000/appjuegos/listadejuegos
+.Para insertar datos en la DB de "Juegos",ingresar a "http://127.0.0.1:8000/appjuegos/agregarlistajuegos" (no esta linkeada a la pag) se va a ver reflejado en http://127.0.0.1:8000/appjuegos/listadejuegos
 o haciendo click en "LISTA DE JUEGOS".
 
 .Para insertar datos en la DB de "Altajuego",ingresar a http://127.0.0.1:8000/appjuegos/agregarjuegos o haciendo click en "Agregar Juegos" se va a ver reflejado en http://127.0.0.1:8000/appjuegos/proximasreviews
